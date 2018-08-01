@@ -3,11 +3,11 @@ import matplotlib.pyplot as plot
 
 
 def f(x):
-    y = np.power(x,4) - 5 * np.square(x) + 2 * x
+    y = 5 * np.square(x)
     return y
 
 def diff_f(x):
-    y = 4 * np.power(x,3) - 10 * x + 2
+    y = 10 * x
     return y
 x_data = np.linspace(-2,2,500)[:,np.newaxis]
 fig = plot.figure()
